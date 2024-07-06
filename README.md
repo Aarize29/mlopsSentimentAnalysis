@@ -79,7 +79,7 @@ $response.Content
 To run the Docker image on any machine with Docker installed:
 ```bash
 docker pull aarize/sentiment-analysis:latest
-docker run --rm -p 3000:5000 your_dockerhub_username/sentiment-analysis:latest
+docker run --rm -p 3000:5000 aarize/sentiment-analysis:latest
 ```
 
 
