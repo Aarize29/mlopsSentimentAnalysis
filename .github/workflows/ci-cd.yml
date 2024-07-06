@@ -27,6 +27,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
+        dockerfile: Dockerfile 
         push: true
         tags: aarize/sentiment-analysis:latest
 
