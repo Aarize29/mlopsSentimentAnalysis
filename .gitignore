@@ -130,7 +130,6 @@ pylint.log
 *.iml
 
 # Docker
-**/Dockerfile
 **/docker-compose*
 
 # Ignore all log files
