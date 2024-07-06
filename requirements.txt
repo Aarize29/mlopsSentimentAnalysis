@@ -1,7 +1,8 @@
-pandas
-numpy
-scikit-learn
-nltk
-flask
-gunicorn
 joblib
+matplotlib
+nltk
+pandas
+scikit-learn
+seaborn
+Flask
+gunicorn
