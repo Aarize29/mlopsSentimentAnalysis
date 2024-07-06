@@ -74,5 +74,6 @@ best_pipeline = make_pipeline(CountVectorizer(), best_model)
 best_pipeline.fit(df['tweet'], df['label'])
 
 
-joblib.dump(best_pipeline, os.path.join(output_dir, 'best_model.pkl'))
+
+joblib.dump(best_pipeline, 'best_model.pkl')
 print(f'The best model is {best_model_name} with accuracy {results[best_model_name]}')
