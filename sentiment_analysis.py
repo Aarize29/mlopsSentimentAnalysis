@@ -11,7 +11,7 @@ import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords')
 
-# Lets do it
+# Lets do it bro
 
 df = pd.read_csv('sentiment_analysis.csv')
 
