@@ -138,8 +138,7 @@ pylint.log
 # Ignore model files
 best_model.pkl
 
-# Ignore datasets
-*.csv
+
 
 # System files
 .DS_Store
